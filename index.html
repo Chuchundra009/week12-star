@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комментарии со спам фильтром</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div>
+        <h1>Сервис комментариев со спам фильтром</h1>
+    </div>
+    <div class="container">
+        <div class="container__data">
+            <h2>Оставьте ваш комментарий</h2>
+            <div class="text-location">
+                <label for="yourName">Введите ваше <b>Имя</b>:</label>
+                <input type="text" id="yourName" class="bck-text">
+            </div>
+            <div class="text-location">
+                <label for="yourAva">Введите ссылку <b>вашего аватара</b>:</label>
+                <input type="text" id="yourAva" class="bck-text">
+            </div>
+            <div class="text-location">
+                <p>Оставьте комментарий:</p>
+                <textarea id="yourComment" cols="40" rows="10" class="bck-text"></textarea>
+            </div>
+            <button id="btn" class="style-btn">Отправить</button>
+        </div>
+        <div class="container__chat">
+            <h2>Чат</h2>
+            <div id="res" class="position-res">
+                <p id="nameRes"></p>
+            </div>
+            <p id="comRes"></p>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
