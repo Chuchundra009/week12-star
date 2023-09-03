@@ -18,9 +18,24 @@ body{
     margin-top: 20px;
 }
 
+.text-loc {
+    display: flex;
+}
+
+
 .position-res {
     display: flex;
     align-items: center;
+}
+
+.cont__time {
+    display: flex;
+    align-items: center;
+}
+
+.seeTime {
+    color: rgb(104, 104, 179);
+    font-weight: 600;
 }
 
 h1,
@@ -59,4 +74,22 @@ h1 {
 
 .container__chat {
     padding-left: 50px;
+    width: 80%;
+}
+
+.chatList__answer {
+    border-bottom: 2px dashed rgb(113, 113, 155);
+    width: 90%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.answYN {
+    display: flex;
+    align-items: center;
+}
+
+.answName {
+    padding-right: 20px;
 }
